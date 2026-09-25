@@ -1,0 +1,11 @@
+_target_: symgraph.model.benchmark_models.ALIGNNMultiTask
+name: 'alignn'
+node_input_features: 1
+embedding_features: 64
+triplet_input_features: 40
+hidden: 256
+out_size: 1
+centers: 80
+a_layers: 4
+g_layers: 4
+iso_dropout: 0.0

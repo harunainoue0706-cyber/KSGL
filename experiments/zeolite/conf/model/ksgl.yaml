@@ -1,0 +1,21 @@
+_target_: symgraph.model.model.GNN
+name: 'ksgl'
+num_layers: 5
+hidden: 64
+bias: True
+out_size: 1
+attention: True
+hyper_hidden: 32
+hyper_num_heads: 4
+edge_dropout: 0.5
+iso_dropout: 0.
+
+# Keep the official non-symmetry GNN backbone.
+hyper_node_type: 'none'
+hyper_edge_type: 'none'
+
+# Frozen KSGL definition / initialization.
+use_ks: true
+ks_dim: 36
+beta_init: 0.03
+gate_bias: -2.0

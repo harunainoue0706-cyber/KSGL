@@ -1,0 +1,10 @@
+_target_: symgraph.model.benchmark_models.MatformerMultiTask
+name: 'matformer'
+node_input_features: 1
+hidden: 128
+edge_features: 128
+num_layers: 5
+heads: 4
+dropout: 0.0
+out_size: 1
+iso_dropout: 0.0

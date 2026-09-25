@@ -1,0 +1,192 @@
+{
+  "SR16": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      16,
+      6,
+      2,
+      2
+    ],
+    "graphs": 2,
+    "pairs": 1
+  },
+  "SR25": {
+    "path": "validation/sr251256.g6",
+    "kind": "sr",
+    "srg": [
+      25,
+      12,
+      5,
+      6
+    ],
+    "graphs": 15,
+    "pairs": 105
+  },
+  "SR26": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      26,
+      10,
+      3,
+      4
+    ],
+    "graphs": 10,
+    "pairs": 45
+  },
+  "SR28": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      28,
+      12,
+      6,
+      4
+    ],
+    "graphs": 4,
+    "pairs": 6
+  },
+  "SR29": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      29,
+      14,
+      6,
+      7
+    ],
+    "graphs": 41,
+    "pairs": 820
+  },
+  "SR40": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      40,
+      12,
+      2,
+      4
+    ],
+    "graphs": 28,
+    "pairs": 378
+  },
+  "SRG35_16": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      35,
+      16,
+      6,
+      8
+    ],
+    "graphs": 3854,
+    "pairs": 7424731
+  },
+  "SRG35_18": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      35,
+      18,
+      9,
+      9
+    ],
+    "graphs": 3854,
+    "pairs": 7424731,
+    "derive": {
+      "op": "complement",
+      "source": "SRG35_16"
+    }
+  },
+  "SRG36_14": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      36,
+      14,
+      4,
+      6
+    ],
+    "graphs": 180,
+    "pairs": 16110
+  },
+  "SRG36_15": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      36,
+      15,
+      6,
+      6
+    ],
+    "graphs": 32548,
+    "pairs": 529669878
+  },
+  "SRG37_18": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      37,
+      18,
+      8,
+      9
+    ],
+    "graphs": 6760,
+    "pairs": 22845420
+  },
+  "SRG45_12": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      45,
+      12,
+      3,
+      3
+    ],
+    "graphs": 78,
+    "pairs": 3003
+  },
+  "SRG50_21": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      50,
+      21,
+      8,
+      9
+    ],
+    "graphs": 18,
+    "pairs": 153
+  },
+  "SRG64_18": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      64,
+      18,
+      2,
+      6
+    ],
+    "graphs": 167,
+    "pairs": 13861
+  },
+  "SRG65_32": {
+    "path": "",
+    "kind": "sr",
+    "srg": [
+      65,
+      32,
+      15,
+      16
+    ],
+    "graphs": 32,
+    "pairs": 496
+  },
+  "BREC": {
+    "path": "",
+    "kind": "brec",
+    "pairs": 400,
+    "entries": 51200
+  }
+}

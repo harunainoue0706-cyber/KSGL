@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+.venv/
+venv/
+
+results/
+cache/
+models/
+logs/
+smoke_logs/
+results_summary/
+experiments/zeolite/experiments/
+
+*.pt
+*.pth
+*.ckpt
+*.aux
+*.out
+RUN.lock
+configs/datasets.local.json
+data/benchmarks/
+
+# Core-generated numerical artifacts are ignored by default.
+*.npz
+*.npy
+# The packaged zeolite benchmark arrays are intentionally retained.
+!experiments/zeolite/Data_numpy/**/*.npy

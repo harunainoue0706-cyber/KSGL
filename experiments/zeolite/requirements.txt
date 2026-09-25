@@ -1,0 +1,11 @@
+numpy
+scipy
+requests
+beautifulsoup4
+python-dotenv
+hydra-core
+omegaconf
+pymatgen
+spglib
+wandb
+torch-geometric

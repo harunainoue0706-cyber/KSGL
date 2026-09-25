@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ksgl"
+version = "1.2.4"
+description = "Algebraic Knot Deep Graph Learning with multi-order local and global GF(2) adjacency-nullity states"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "networkx>=3.0",
+  "torch>=2.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["ksgl*"]
